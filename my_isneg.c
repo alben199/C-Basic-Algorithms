@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2022
-** my_print_revalpha.c
-** File description:
-** EPITECH Day 03 Task04 project
+** Write a function that displays either N if
+** the integer passed as parameter is negative or P,
+** if positive or null.
+** 
 */
 
 #include <unistd.h>
@@ -10,9 +10,9 @@
 int my_isneg(int n)
 {
     if (n >= 0){
-        my_putchar('P');
+        putchar('P');
     } else if (n < 0){
-        my_putchar('N');
+        putchar('N');
     }
     return (0);
 }

@@ -7,7 +7,7 @@
 
 #include <unistd.h>
 
-int my_print_digits(void)
+int print_digits(void)
 {
     int i;
 
